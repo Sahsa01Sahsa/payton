@@ -1,0 +1,24 @@
+class Insect:
+    def __init__(self, name="невідомо", feature="невідомо"):
+        self.name = name
+        self.feature = feature
+
+bee = Insect("Бджола", "має крила")
+ant = Insect("Мураха", "має шість ніг")
+print("Комаха: ", bee.name, " Особливість: ", bee.feature)
+print("Комаха: ", ant.name, " Особливість: ", ant.feature)
+
+butterfly = Insect("Метелик", "має гарні крила")
+print("Комаха: ", butterfly.name, " Особливість: ", butterfly.feature)
+
+spider = Insect("Павук", "має вісім ніг")
+print("Комаха: ", spider.name, " Особливість: ", spider.feature)
+
+beetle = Insect("Трутень", "має жорсткий панцир")
+print("Комаха: ", beetle.name, " Особливість: ", beetle.feature)
+
+mosquito = Insect("Комар", "мучить людей своїм жужанням")
+print("Комаха: ", mosquito.name, " Особливість: ", mosquito.feature)
+
+dragonfly = Insect("Стрекоза", "має великі крила")
+print("Комаха: ", dragonfly.name, " Особливість: ", dragonfly.feature)
